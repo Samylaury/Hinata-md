@@ -7,14 +7,14 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['918101187835']
-global.OwnerNumber = ['918101187835']
-global.ownertag = ['918101187835']
+global.Owner = ['22571615640']
+global.OwnerNumber = ['22571615640']
+global.ownertag = ['22571615640']
 global.BotName = "Miku"
 global.packname = "Miku bot"
-global.author = "By: Fantox"
-global.OwnerName = "Fantox"
-global.BotSourceCode = "https://github.com/FantoX001/Miku-MD"
+global.author = "By: Winter"
+global.OwnerName = "Winter"
+global.BotSourceCode = "https://github.com/Winter094/Miku-MD"
 global.SupportGroupLink = "https://chat.whatsapp.com/JcBzjRIxM5UHfuJbt0KrWt"
 global.sessionName = "session"
 
@@ -58,7 +58,7 @@ global.ntilink = []
 
 
 global.mess = {
-    jobdone: 'Job done...',
+    jobdone: 'Terminé...',
     useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
     botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
     botowner: 'Only my *Owner* can use this command, Baka!',
