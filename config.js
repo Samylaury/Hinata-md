@@ -7,13 +7,13 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['22571615640']
-global.OwnerNumber = ['22571615640']
-global.ownertag = ['22571615640']
+global.Owner = ['33781043539']
+global.OwnerNumber = ['33781043539']
+global.ownertag = ['33781043539']
 global.BotName = "Miku"
-global.packname = "Miku bot"
+global.packname = "฿Ⱡ₳₵₭₵₳₮"
 global.author = "By: Winter"
-global.OwnerName = "Winter"
+global.OwnerName = "฿Ⱡ₳₵₭₵₳₮"
 global.BotSourceCode = "https://github.com/Winter094/Miku-MD"
 global.SupportGroupLink = "https://chat.whatsapp.com/JcBzjRIxM5UHfuJbt0KrWt"
 global.sessionName = "session"
