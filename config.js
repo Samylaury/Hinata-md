@@ -7,15 +7,15 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['33781043539']
-global.OwnerNumber = ['33781043539']
-global.ownertag = ['33781043539']
-global.BotName = "Miku"
-global.packname = "฿Ⱡ₳₵₭₵₳₮"
-global.author = "By: Winter"
-global.OwnerName = "฿Ⱡ₳₵₭₵₳₮"
-global.BotSourceCode = "https://github.com/Winter094/Miku-MD"
-global.SupportGroupLink = "https://chat.whatsapp.com/JcBzjRIxM5UHfuJbt0KrWt"
+global.Owner = ['22891733300']
+global.OwnerNumber = ['22891733300']
+global.ownertag = ['22891733300']
+global.BotName = "Hinata Hyuga"
+global.packname = "Monkey D Luffy"
+global.author = ""
+global.OwnerName = "Monkey D Luffy"
+global.BotSourceCode = "https://github.com/Faouz995/Miku-Mod-to-Hinata"
+global.SupportGroupLink = "https://chat.whatsapp.com/BHVNdEnFK9aATr62XBP9D3"
 global.sessionName = "session"
 
 // Prefix //
@@ -58,7 +58,7 @@ global.ntilink = []
 
 
 global.mess = {
-    jobdone: 'Terminé...',
+    jobdone: 'Job done...',
     useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
     botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
     botowner: 'Only my *Owner* can use this command, Baka!',

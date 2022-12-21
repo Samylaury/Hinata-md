@@ -1,21 +1,26 @@
 <p align="center">
    <a href="https://github.com/FantoX001">
-    <img src="https://c.tenor.com/NJVFjOYEcsIAAAAC/miku-gotoubun.gif" width="610">
+    <img src="https://i.gifer.com/origin/32/3228de21760a910204ce6adc6e0973a6.gif" alt="animated" width="500" height="300" />
      
 </p>
-<h1 align="center"> Miku Nakano (Beta)
+<h1 align="center"> Miku-Hinata(Beta)
 </h1>
 <p align="center"> 
-  Konochiwa Senpai, I am "Miku Nakano" a WhatsApp bot made by Fantox to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
-
+  Hi I'm Hinata Hyuga... From MIKU
+I wanted to make a bot of my favorite character and so I took Miku as a base, who is an excellent bot. I thank Fantox for their hard work.
 <p align="center">
-  <a href="https://github.com/FantoX001/Miku-MD/fork">
+I make usual changes or additions sometimes to make the bot more fun. I will note the date of the last adjustments for those 
+                                  who want to take advantage of it too.
+  <p align="center">
+          je fais des changements ou des ajouts habituel parfois pour rendre le bot plus fun. je noterai la date des derniers reglages
+                                 pour ceux qui veulent en     profiter aussi.
+ <p align="center">                                               10/09/2022
+<p align="center">
+  <a href="https://github.com/Faouz995/Miku-Mod-to-Hinata/fork">
     <img src="https://img.shields.io/github/forks/FantoX001/Miku-MD?label=Fork&style=social">
     
     
-  <a href="https://github.com/FantoX001/Miku-MD/stargazers">
-    <img src="https://img.shields.io/github/stars/FantoX001/Miku-MD?style=social">
-  </a>
+ 
 
 <p align="center">
   <a href="https://github.com/FantoX001/Miku-MD">
@@ -29,7 +34,7 @@
       
 </br> 
    
-#### ✧✧ This bot is still under development so if you want to recode/modify it, pls check this main repo once in 2 days because i am continuously debugging it and making major changes in it.
+   #### ✧✧ This bot is still under development so if you want to recode/modify it, pls check this main repo once in 2 days because i am continuously debugging it and making major changes in it.
 </br>
   
 
@@ -166,6 +171,6 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ## ✧ Credits and Appreciation:
 
 -   `Adiwajshing` sir for [Baileys](https://github.com/adiwajshing/baileys).
--   `Arus~Bots`, my lovely team mates for [Mizuhara](https://github.com/Arus-Bots/Mizuhara) and Support.
--   `Xeon` for [Cheems](https://github.com/DGXeon/CheemsBot-MD2) as a Base.
+-   `Arus~Bots` team for [Mizuhara](https://github.com/Arus-Bots/Mizuhara).
+-   `Xeon` for [Cheems](https://github.com/DGXeon/CheemsBot-MD2).
 -   `Zhwzein` for [Killua](https://github.com/zhwzein/Killua-Zoldyck)
