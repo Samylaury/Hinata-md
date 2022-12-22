@@ -10,8 +10,10 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN  npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
-
+RUN  npm i -g pm2
+RUN  pm2 start index.js
+RUN  pm2 save
+RUN  pm2 logs
 COPY . .
 
 CMD ["node", "."]
