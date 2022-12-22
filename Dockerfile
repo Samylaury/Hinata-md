@@ -10,6 +10,10 @@ RUN apt-get update && \
 
 COPY package.json .
 
+
+RUN git clone https://github.com/Faouz995/Hinata-md /root/Hinata-md
+WORKDIR /root/Hinata-md/
+
 RUN  npm i -g pm2
 RUN  pm2 start index.js
 RUN  pm2 save
