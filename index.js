@@ -72,7 +72,7 @@ Miku.ev.on('groups.update', async pea => {
        try {
        ppgc = await Miku.profilePictureUrl(pea[0].id, 'image')
        } catch {
-       ppgc = 'https://wallpapercave.com/wp/wp10524580.jpg'
+       ppgc = 'https://i.pinimg.com/originals/1e/4d/35/1e4d35703c9631f1d06630cb729492a2.png.jpg'
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
@@ -91,7 +91,7 @@ Miku.ev.on('groups.update', async pea => {
         try {
         ppgc = await Miku.profilePictureUrl(pea[0].id, 'image')
         } catch {
-        ppgc = 'https://wallpapercave.com/wp/wp10524580.jpg'
+        ppgc = 'https://i.pinimg.com/originals/1e/4d/35/1e4d35703c9631f1d06630cb729492a2.png'
         }
         let wm_fatih = { url : ppgc }
         if (pea[0].announce == true) {
@@ -133,13 +133,13 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 try {
                     ppuser = await Miku.profilePictureUrl(num, 'image')
                 } catch {
-                    ppuser = 'https://wallpapercave.com/wp/wp10753770.jpg'
+                    ppuser = 'https://i.pinimg.com/originals/1e/4d/35/1e4d35703c9631f1d06630cb729492a2.png'
                 }
 
                 try {
                     ppgroup = await Miku.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://telegra.ph/file/4cc2712eee93c105f6739.jpg'
+                    ppgroup = 'https://i.pinimg.com/originals/1e/4d/35/1e4d35703c9631f1d06630cb729492a2.png'
                 }
 
                 let targetname = await Miku.getName(num)
@@ -151,17 +151,21 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 mikutext = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *Miku Nakano*, Welcome to ${metadata.subject}.
+I am *Hinata Hyuga*, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}
 `
-
+   let buttons = [
+{buttonId: `wkwwk`, buttonText: {displayText: 'Welcome ☻'}, type: 1}
+]
+   
     let buttonMessage = {
     image: await getBuffer(ppgroup),
     mentions: [num],
     caption: mikutext,
     footer: `${global.BotName}`,
+    button: buttons,
     headerType: 4,
     }
 Miku.sendMessage(anu.id, buttonMessage)
@@ -171,13 +175,17 @@ Miku.sendMessage(anu.id, buttonMessage)
 Sayonara 👋, @${WAuserName.split("@")[0]},
 
 I hope you will come back soon, but we are not going to miss you though!
-`
+                  `
+   let buttons = [
+{buttonId: `wkwkwk`, buttonText: {displayText: 'Goodbye 🥺'}, type: 1}
+]
 
     let buttonMessage = {
 	image:await getBuffer(ppuser),
     mentions: [num],
     caption: mikutext,
     footer: `${global.BotName}`,
+    button: buttons,
     headerType: 4,
     
     }
