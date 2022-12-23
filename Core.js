@@ -5407,8 +5407,23 @@ default:
     if(isCmd){
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-        reply (`No such command programmed *${pushname}* senpai! Type *${prefix}help* to get my full command list!`)
-
+	    
+         mikupic ='https://d.wattpad.com/story_parts/488097533/images/14f5819f0bc89e1d41592490380.gif'       
+ const needhelpmenu = `no such command baka, type -help to get full commands.`
+     
+         let butRun = [
+                {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1}
+                ]
+                let buttonMessage = {
+                    video: mikupic,gifPlayback:true,
+                    caption: needhelpmenu,
+                    footer: `${global.BotName}`,
+                    buttons: butRun,
+                    headerType: 4
+                }
+            Miku.sendMessage(m.chat,buttonMessage,{quoted:m})
+                }
+   break 
     }	 			
 
 
